@@ -1,0 +1,35 @@
+/**----------------------
+ *    FORMATO CLASES
+ *------------------------**/
+
+.header__nav {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+}
+.header__nav a {
+	margin: 0 40px;
+	color: var(--color-nav);
+	font-weight: var(--font-weight-parrafo);
+	font-family: var(--font-family-parrafo);
+}
+.figure__zigzag {
+	display: flex;
+	align-items: center;
+}
+.figure__edificio {
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
+ .figure__edificio__img, .figure__zigzag__img{ 
+	width: 100%;
+}
+.figure__parrafo__right{
+	padding-left: 20px;
+}
+.figure__texto{
+	padding-right: 30px;
+}

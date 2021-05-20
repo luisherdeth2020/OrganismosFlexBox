@@ -1,0 +1,31 @@
+/**----------------------
+ *    FORMATO  ETIQUETAS 
+ *------------------------**/
+* {
+	margin: 0;
+}
+
+body {
+	font-size: var(--font-global);
+    font-family: var(--font-family-parrafo);
+}
+header {
+	display: flex;
+	align-items: center;
+	padding: 5px 25px;
+	background-color: var(--bg-header);
+}
+a {
+	text-decoration: none;
+}
+
+picture {
+	width: 50%;
+}
+figcaption {
+	width: 50%;
+}
+main {
+	padding: 0 20px;
+}
+

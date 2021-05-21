@@ -1,6 +1,43 @@
 /**----------------------
  *    FORMATO CLASES
  *------------------------**/
+.home {
+	align-items: center;
+	background-color: #e1e5ea;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+.home a:hover {
+	color: #da7f8f;
+}
+
+.home_border {
+	position: relative;
+}
+
+.home_border:hover::after {
+	bottom: 14;
+	height: 50px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	content: '';
+	border-bottom: 4px solid #5aa897;
+}
+
+.home a:active {
+	color: cornflowerblue;
+}
+
+.home a {
+	color: var(--color-nav);
+	font-family: var(--font-family-parrafo);
+	font-size: 2rem;
+	font-weight: var(--font-weight-titulo);
+	margin: 0 40px;
+	text-transform: uppercase;
+}
 
 .header__nav {
 	/* border: 1px solid red; */
@@ -8,16 +45,19 @@
 	flex-grow: 1;
 	justify-content: center;
 }
+
 .header__nav a {
 	color: var(--color-nav);
 	font-family: var(--font-family-parrafo);
 	font-weight: var(--font-weight-parrafo);
 	margin: 0 40px;
 }
+
 .figure__zigzag {
 	align-items: center;
 	display: flex;
 }
+
 .figure__edificio {
 	align-items: center;
 	display: flex;
@@ -28,27 +68,34 @@
 .figure__zigzag__img {
 	width: 100%;
 }
+
 .figure__parrafo__right {
 	padding-left: 20px;
 }
+
 .figure__texto {
 	padding-right: 30px;
 }
+
 .container {
 	height: 70vh;
 }
+
 .footer__redes {
 	flex-grow: 0.2;
 }
+
 .footer__acerca {
 	flex-grow: 0.3;
 }
+
 .footer__copyright {
 	align-items: flex-end;
 	display: flex;
 	flex-grow: 0.8;
 	padding-bottom: 22px;
 }
+
 .footer__terminos {
 	flex-grow: 1;
 }
@@ -58,13 +105,16 @@
 .footer__terminos li:first-child {
 	padding: 28px 0px 21px 0px;
 }
+
 .footer__redes li:nth-child(3),
 .footer__acerca li:nth-child(3) {
 	padding: 14px 0;
 }
+
 .footer__terminos li:nth-child(2n) {
 	padding: 14px 0;
 }
+
 .footer__redes h2,
 .footer__acerca h2,
 .footer__terminos h2 {

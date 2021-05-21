@@ -38,3 +38,7 @@ footer {
 ul {
 	list-style: none;
 }
+
+picture img{
+	width: 100%;
+}

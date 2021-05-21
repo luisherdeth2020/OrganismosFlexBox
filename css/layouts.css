@@ -120,3 +120,9 @@
 .footer__terminos h2 {
 	font-size: var(--font-weight-titulo);
 }
+@media (max-width: 768px) {
+	.home a {
+		font-size: 1rem;
+		margin: 0 4px;
+	}
+}

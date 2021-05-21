@@ -6,14 +6,14 @@
 }
 
 body {
+	font-family: var(--font-family-parrafo);
 	font-size: var(--font-global);
-    font-family: var(--font-family-parrafo);
 }
 header {
-	display: flex;
 	align-items: center;
-	padding: 5px 25px;
 	background-color: var(--bg-header);
+	display: flex;
+	padding: 5px 25px;
 }
 a {
 	text-decoration: none;
@@ -28,4 +28,13 @@ figcaption {
 main {
 	padding: 0 20px;
 }
-
+footer {
+	background-color: var(--bg-footer);
+	color: var(--color-footer);
+	display: flex;
+	font-family: var(--font-family-parrafo);
+	height: 30vh;
+}
+ul {
+	list-style: none;
+}

@@ -3,9 +3,9 @@
  *------------------------**/
 
 :root {
+	--bg-footer: #2385e0;
+	--bg-header: #f8f8f8;
 	--color-container: #000;
 	--color-footer: #fff;
 	--color-nav: #000;
-	--bg-footer: #2385e0;
-	--bg-header: #f8f8f8;
 }

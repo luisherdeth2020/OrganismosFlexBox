@@ -120,6 +120,50 @@
 .footer__terminos h2 {
 	font-size: var(--font-weight-titulo);
 }
+/**--------------------------------------------
+ *               HEADER TEST
+ *---------------------------------------------**/
+
+header {
+	background-image: url(./../img/header.png);
+	background-position: center;
+	object-fit: contain;
+}
+.hamburger {
+	padding: 3px;
+	width: 4rem;
+	height: 5rem;
+	/* background-color: #000; */
+	background-color: rgba(255, 255, 255, 0.1);
+
+	backdrop-filter: blur(12px);
+	border: solid 1px rgba(255, 255, 255, 05);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+}
+.hamburger__line,
+.hamburger__line::after,
+.hamburger__line::before {
+	position: relative;
+	width: 90%;
+	height: 0.5rem;
+	background-color: #000;
+	border-radius: 5px;
+}
+.hamburger__line::after,
+.hamburger__line::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 22px;
+}
+.hamburger__line::before {
+	top: -22px;
+}
+
 @media (max-width: 768px) {
 	.home a {
 		font-size: 1rem;
